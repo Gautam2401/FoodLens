@@ -1,0 +1,138 @@
+ body {
+     font-family: Arial, sans-serif;
+     background: #f4f6fa;
+     margin: 0;
+     padding: 0;
+ }
+
+ header {
+     background: #4A90E2;
+     color: white;
+     padding: 20px;
+     text-align: center;
+     font-size: 24px;
+ }
+
+ main {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-around;
+     padding: 20px;
+ }
+
+ .section {
+     background: white;
+     border-radius: 12px;
+     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+     padding: 20px;
+     margin: 10px;
+     flex: 1;
+     min-width: 280px;
+     max-width: 500px;
+ }
+
+ .button,
+ input[type="file"] {
+     background: #4A90E2;
+     color: white;
+     border: none;
+     padding: 12px 20px;
+     margin: 10px 5px;
+     border-radius: 8px;
+     font-size: 16px;
+     cursor: pointer;
+     transition: background 0.3s ease;
+ }
+
+ .button:hover,
+ input[type="file"]:hover {
+     background: #357ABD;
+ }
+
+ #webcam-container,
+ #uploaded-image-container,
+ #ai-output,
+ #detected-food {
+     margin-top: 20px;
+ }
+
+ img,
+ canvas {
+     border-radius: 12px;
+     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+     max-width: 100%;
+     height: auto;
+ }
+
+ .text-block {
+     font-size: 14px;
+     color: #333;
+     text-align: left;
+     line-height: 1.6;
+     margin-top: 10px;
+ }
+
+ @media (max-width: 768px) {
+     main {
+         flex-direction: column;
+         align-items: center;
+     }
+ }
+
+ .ai-output-section {
+     background: #fff;
+     padding: 15px 20px;
+     margin: 12px auto;
+     width: 90%;
+     max-width: 500px;
+     border-radius: 10px;
+     box-shadow: 0 3px 7px rgba(0, 0, 0, 0.12);
+     font-size: 15px;
+     text-align: left;
+     white-space: normal;
+ }
+
+ .ai-output-section p {
+     margin-top: 8px;
+     line-height: 1.4;
+     font-weight: 400;
+ }
+
+ .nutrition-table {
+     width: 100%;
+     border-collapse: collapse;
+     margin-top: 10px;
+ }
+
+ .nutrition-table th,
+ .nutrition-table td {
+     border: 1px solid #ddd;
+     padding: 8px 12px;
+ }
+
+ .nutrition-table th {
+     background-color: #4A90E2;
+     color: white;
+     text-align: left;
+     width: 40%;
+     border-radius: 6px 0 0 6px;
+ }
+
+ .nutrition-table td {
+     background-color: #f7f9fc;
+     border-radius: 0 6px 6px 0;
+ }
+
+ .suggestion {
+     background: #e0ecfa;
+     padding: 6px 10px;
+     border-radius: 8px;
+     margin: 3px;
+     display: inline-block;
+     cursor: pointer;
+     transition: background 0.3s;
+ }
+
+ .suggestion:hover {
+     background: #c8dff6;
+ }
