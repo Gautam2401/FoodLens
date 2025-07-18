@@ -13,7 +13,7 @@ const HeroSection = () => (
         <div className="d-flex gap-3 mb-3">
         <button
   className="btn btn-success btn-lg shadow"
-  onClick={() => window.open('/Food_Nutrition.html', '_blank')}
+  onClick={() => window.open('/FoodLens/Food_Nutrition.html', '_blank')}
 >
   Analyze Food Now
 </button>

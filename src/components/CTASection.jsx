@@ -5,7 +5,7 @@ const CTASection = () => (
     <div className="container bg-success text-white text-center rounded p-5 shadow">
       <h2 className="display-6 fw-bold mb-3">Ready to Transform Your Nutrition?</h2>
       <p className="mb-4">Join thousands of users who are making smarter food choices with AI</p>
-      <button className="btn btn-light btn-lg text-success fw-semibold mb-3" onClick={() => window.open('/Food_Nutrition.html', '_blank')}>
+      <button className="btn btn-light btn-lg text-success fw-semibold mb-3" onClick={() => window.open('/FoodLens/Food_Nutrition.html', '_blank')}>
         Start Analyzing
       </button>
       <div className="d-flex flex-column flex-md-row gap-3 justify-content-center small">
